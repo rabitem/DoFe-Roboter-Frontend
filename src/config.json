@@ -1,0 +1,15 @@
+{
+    "DEV_MODE": false,
+    "WEBSOCKET_URL": "ws:10.0.1.1:80/endpoint",
+    "WEBSOCKET_DEV_URL": "ws:192.168.178.42:80/endpoint",
+    "API_STATS_URL": "http://10.0.1.1:8080/stats",
+    "API_STATS_DEV_URL": "/stats",
+    "DEV_MODE_HEADERS": {
+    "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers":
+        "Origin, X-Requested-With, Content-Type, Accept"
+    },
+    "PROD_MODE_HEADERS": {
+    }
+}
